@@ -1,0 +1,112 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: rgb(24, 91, 199);
+    box-shadow: rgb(33, 90, 180) 0px 5px, rgba(57, 128, 215, 0.356) 0px 10px, rgba(60, 146, 238, 0.2) 0px 15px, rgba(46, 146, 240, 0.1) 0px 20px, rgba(46, 166, 240, 0.05) 0px 25px;
+}
+.header h1 {
+    padding: 10px;
+    text-align: center;
+    color: aliceblue;
+}
+
+#forca {
+    font-family: monospace;
+    white-space: pre;
+}
+
+#forca img {
+    max-width: 400px; 
+}
+
+.jogo-forca {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.informacoes-jogo {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;
+    color: aliceblue;
+}
+
+.informacoes-jogo-filho {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(24, 91, 199);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center; /* Opcional: para centralizar o texto dentro do filho */
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.informacoes-jogo-filho button {
+    background-color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    font-weight: 400;
+    transition: 0.5s ease;
+}
+
+.informacoes-jogo-filho button:hover {
+    font-size: 15px;
+}
+
+.informacoes-jogo-filho input {
+    text-align: center;
+    margin-bottom: 5px;
+    margin: 0 auto; 
+    max-width: 20%; /* valor de exemplo */
+}
+
+#palavra {
+    font-size: 20px;
+}
+
+.dica {
+    color: black;
+    font-weight: 700;
+}
+
+.Tip {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.Tip button{
+    background-color: rgb(24, 91, 199);
+    color: aliceblue;
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px;
+    font-size: 25px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 0.5s ease;
+}
+
+.Tip button:hover {
+    font-size: 30px;
+}
+
+.pontos {
+    max-width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    border: 2px solid rgb(24, 91, 199);
+    border-radius: 10px;
+}
+
+.pontos div {
+    padding-left: 10px;
+}
+
